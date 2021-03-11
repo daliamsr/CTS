@@ -64,5 +64,5 @@ public abstract class Aplicant{
 		this.nr_proiecte = nr_proiecte;
 		this.denumireProiect=denumire_proiecte;
 	}
-
+public abstract int getFinantare();
 }
