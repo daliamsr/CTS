@@ -1,5 +1,6 @@
 package ro.ase.cts.proxy.clase;
 
+//PROXY doar atunci cand ti se pune o conditie astfel incat sa fie mai putin chestii
 public class Proxy implements CreditAbstract{
 	private CreditAbstract credit;
 	
@@ -7,6 +8,7 @@ public class Proxy implements CreditAbstract{
 		super();
 		this.credit = credit;
 	}
+
 
 	@Override
 	public void OferaCredit(TipMoneda tip, float suma) {
