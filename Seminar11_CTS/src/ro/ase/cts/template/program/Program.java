@@ -6,6 +6,8 @@ public class Program {
 
 	public static void main(String[] args) {
 		Spectator spectator=new Spectator("Radu");
+		
+		spectator.intrarePeStadion();
 	}
 
 }
